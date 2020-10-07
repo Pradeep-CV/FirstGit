@@ -1,17 +1,17 @@
-#Name of the project
-PROJECT_NAME = smarttools
+# Name of the project
+PROJECT_NAME = SmartTools
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = SmartTools.cpp
+SRC = SmartTools.cpp\
 
 # All test source files
-#TEST_SRC = src/calculator_operations.c\
-#test/test_calculator_operations.c
+# TEST_SRC = src/Multicalc.c\
+# test/test_multicalc.c
 
-#TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc
